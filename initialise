@@ -1,0 +1,30 @@
+#!/bin/bash
+IFS=$'\n'
+#screen -S "SteamClient" -d -m steam -login [username] [password]
+screen -S "SimpleScreenRecorder" -d -m simplescreenrecorder
+
+sleep 10
+rm "/home/jacob/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo/console.log"
+
+screen -S "csgo" -d -m ssr-glinject /home/jacob/.steam/steam/steamapps/common/Counter-Strike\ Global\ Offensive/csgo.sh -high -novid -windowed -w 1280 -h 720 -tickrate 32 -condebug +exec autoexec.cfg +map waitmap
+
+consolefile="/home/jacob/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo/console.log"
+loopvar="0"
+while  [ "$loopvar" -eq "0" ]
+do
+if [ ! -f "$consolefile" ]
+then 
+sleep 1 
+else
+for i in $(cat "$consolefile"); do
+	if [[ "$i" == *"Map: waitmap"* ]]
+	then
+	loopvar="1"
+	echo "Loaded!"
+	fi	
+done
+sleep 2 
+fi
+done
+sleep 5
+/home/jacob/CSGODemo/start.sh

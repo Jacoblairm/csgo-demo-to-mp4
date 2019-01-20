@@ -1,0 +1,975 @@
+Failed to load gamerulescvars.txt, game rules cvars might not be reported to management tools.
+Parent and child ConVars with different default values! spec_freeze_time child: 2.0 parent: 3.0 (parent wins)
+Parent cvar in client.dll not allowed (cl_remove_old_ugc_downloads)
+Parent cvar in client.dll not allowed (weapon_max_before_cleanup)
+Parent cvar in client.dll not allowed (weapon_auto_cleanup_time)
+Parent cvar in client.dll not allowed (steam_controller_haptics)
+Parent cvar in client.dll not allowed (mp_endmatch_votenextleveltime)
+Parent cvar in client.dll not allowed (mp_verbose_changelevel_spew)
+maxplayers set to 64
+Error: Material "debug/debugluxels" uses unknown shader "DebugLuxels"
+KV Conditional: Unknown symbol INPUTSWAPAB
+KV Conditional: Unknown symbol INPUTSWAPAB
+KV Conditional: Unknown symbol INPUTSWAPAB
+Error: Material "___fillrate_0" uses unknown shader "FillRate"
+Error: Material "___debugnormalmap_1" uses unknown shader "DebugNormalMap"
+Error: Material "___debugdrawenvmapmask_2" uses unknown shader "DebugDrawEnvmapMask"
+Error: Material "___debugdepth_3" uses unknown shader "DebugDepth"
+Error: Material "___debugdepth_4" uses unknown shader "DebugDepth"
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/constant_color)
+Steam config directory: /home/jacob/.steam/steam/steamapps/common/Counter-Strike Global Offensive/platform/config
+--- Missing Vgui material vgui/store/store_item_bg
+--- Missing Vgui material vgui/store/store_item_bg_highlight
+--- Missing Vgui material vgui/store/store_item_sel_bg
+--- Missing Vgui material vgui/store/store_item_pickup_bg
+--- Missing Vgui material vgui/store/store_preview_bg
+--- Missing Vgui material vgui/store/store_bottom_bar_button_bg
+--- Missing Vgui material vgui/store/store_bottom_bar_button_highlight_bg
+--- Missing Vgui material vgui/store/store_default_dialog
+--- Missing Vgui material vgui/store/store_backpack_bg
+--- Missing Vgui material vgui/store/store_backpack_bg_highlight
+--- Missing Vgui material vgui/store/store_backpack_bg_highlight
+--- Missing Vgui material vgui/store/store_discount_corner
+--- Missing Vgui material vgui/store/store_preview_bg
+--- Missing Vgui material vgui/store/store_tooltip_bg
+--- Missing Vgui material vgui/store/store_tab_selected
+--- Missing Vgui material vgui/store/store_tab_unselected
+--- Missing Vgui material vgui/btn_econ_blue
+--- Missing Vgui material vgui/store/button_econ_blue_over
+--- Missing Vgui material vgui/store/store_backpack_bg
+--- Missing Vgui material vgui/store/store_backpack_bg_highlight
+--- Missing Vgui material vgui/store/store_backpack_bg_highlight
+CGameEventManager::AddListener: event 'coop_mission_end_stats' unknown.
+Error: Material "___fillrate_0" uses unknown shader "FillRate"
+Error: Material "___debugnormalmap_1" uses unknown shader "DebugNormalMap"
+Error: Material "___debugdrawenvmapmask_2" uses unknown shader "DebugDrawEnvmapMask"
+Error: Material "___debugdepth_3" uses unknown shader "DebugDepth"
+Error: Material "___debugdepth_4" uses unknown shader "DebugDepth"
+Error: Material "debug/debugluxels" uses unknown shader "DebugLuxels"
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/constant_color)
+Unknown command "cl_thirdperson"
+Did not detect any valid joysticks.
+Unknown command "tr_best_course_time"
+Unknown command "tr_completed_training"
+Valid options: 1 = Desktop, 2 = Couch, 3 = Classic.
+Unknown command "weapon_accuracy_logging"
+Unknown command "cl_teamid_min"
+Unknown command "cl_teamid_max"
+Can't use cheat cvar cl_teamid_overhead in multiplayer, unless the server has sv_cheats set to 1.
+Can't use cheat cvar cl_teamid_overhead_maxdist in multiplayer, unless the server has sv_cheats set to 1.
+Unknown command "cl_team"
+Valid options: 1 = Desktop, 2 = Couch, 3 = Classic.
+Host_WriteConfiguration: Wrote cfg/config.cfg
+Unknown command "cl_team"
+Valid options: 1 = Desktop, 2 = Couch, 3 = Classic.
+Host_WriteConfiguration: Wrote cfg/config.cfg
+Loaded cached network config file.  Loaded revision 51 OK
+Unknown command "cl_thirdperson"
+Did not detect any valid joysticks.
+Unknown command "tr_best_course_time"
+Unknown command "tr_completed_training"
+Valid options: 1 = Desktop, 2 = Couch, 3 = Classic.
+Unknown command "weapon_accuracy_logging"
+---- Host_NewGame ----
+Error: Material "___fillrate_0" uses unknown shader "FillRate"
+Error: Material "___debugnormalmap_1" uses unknown shader "DebugNormalMap"
+Error: Material "___debugdrawenvmapmask_2" uses unknown shader "DebugDrawEnvmapMask"
+Error: Material "___debugdepth_3" uses unknown shader "DebugDepth"
+Error: Material "___debugdepth_4" uses unknown shader "DebugDepth"
+Error: Material "debug/debugluxels" uses unknown shader "DebugLuxels"
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/constant_color)
+#######################################
+Map waitmap missing stringtable dictionary, don't ship this way!!!
+Run with -stringtables on the command line or convar
+stringtable_alwaysrebuilddictionaries enabled to build the string table
+#######################################
+Host_NewGame on map waitmap
+GameTypes: missing mapgroupsSP entry for game type/mode (custom/custom).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/cooperative).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/coopmission).
+bot_autodifficulty_threshold_high - 5.0
+bot_autodifficulty_threshold_low - -2.0
+bot_chatter - normal
+bot_defer_to_human_goals - 0
+bot_defer_to_human_items - 1
+bot_difficulty - 1
+bot_quota - 10
+bot_quota_mode - normal
+bot_allow_grenades - 1
+bot_allow_pistols - 1
+bot_allow_sub_machine_guns - 1
+bot_allow_shotguns - 1
+bot_allow_rifles - 1
+bot_allow_snipers - 1
+bot_allow_machine_guns - 1
+sv_auto_adjust_bot_difficulty - 1
+sv_bots_get_easier_each_win - 0
+sv_bots_force_rebuy_every_round - 0
+sv_bots_get_harder_after_each_wave - 0
+mp_playercashawards - 1
+cash_player_bomb_defused - 300
+cash_player_bomb_planted - 300
+cash_player_damage_hostage - -30
+cash_player_interact_with_hostage - 150
+cash_player_killed_enemy_default - 300
+cash_player_killed_enemy_factor - 1
+cash_player_killed_hostage - -1000
+cash_player_killed_teammate - -300
+cash_player_rescued_hostage - 1000
+cash_player_respawn_amount - 0
+cash_player_get_killed - 0
+mp_teamcashawards - 1
+cash_team_elimination_bomb_map - 3250
+cash_team_elimination_hostage_map_t - 1000
+cash_team_elimination_hostage_map_ct - 2000
+cash_team_hostage_alive - 0
+cash_team_hostage_interaction - 500
+cash_team_loser_bonus - 1400
+cash_team_loser_bonus_consecutive_rounds - 500
+cash_team_planted_bomb_but_defused - 800
+cash_team_rescued_hostage - 0
+cash_team_terrorist_win_bomb - 3500
+cash_team_win_by_defusing_bomb - 3250
+cash_team_win_by_hostage_rescue - 3500
+cash_team_win_by_time_running_out_bomb - 3250
+cash_team_win_by_time_running_out_hostage - 3250
+cash_team_survive_guardian_wave - 1000
+mp_afterroundmoney - 0
+mp_buytime - 90
+mp_buy_anywhere - 0
+mp_buy_during_immunity - 0
+mp_startmoney - 800
+mp_maxmoney - 16000
+sv_buy_status_override - -1
+mp_death_drop_defuser - 1
+mp_death_drop_grenade - 2
+mp_death_drop_gun - 1
+mp_deathcam_skippable - 1
+mp_defuser_allocation - 0
+mp_give_player_c4 - 1
+mp_free_armor - 0
+mp_molotovusedelay - 15.0
+mp_weapons_allow_zeus - 1
+mp_weapons_allow_map_placed - 0
+mp_weapons_glow_on_ground - 0
+mp_ct_default_melee - weapon_knife
+mp_ct_default_secondary - weapon_hkp2000
+mp_ct_default_primary - 
+mp_ct_default_grenades - 
+mp_t_default_melee - weapon_knife
+mp_t_default_secondary - weapon_glock
+mp_t_default_primary - 
+mp_t_default_grenades - 
+mp_buy_allow_grenades - 1
+mp_weapons_allow_typecount - 5
+mp_freezetime - 6
+mp_force_pick_time - 15
+mp_halftime - 0
+mp_match_can_clinch - 1
+mp_maxrounds - 0
+mp_roundtime - 5
+mp_roundtime_defuse - 0
+mp_roundtime_hostage - 0
+mp_timelimit - 5
+mp_warmuptime - 30
+mp_warmuptime_all_players_connected - 60
+mp_warmup_pausetimer - 0
+mp_halftime_pausetimer - 0
+mp_default_team_winner_no_objective - -1
+mp_hostagepenalty - 10
+mp_solid_teammates - 1
+sv_allow_votes - 1
+sv_alltalk - 0
+sv_auto_full_alltalk_during_warmup_half_end - 1
+sv_deadtalk - 0
+sv_ignoregrenaderadio - 0
+mp_teammates_are_enemies - 0
+mp_damage_scale_ct_body - 1.0
+mp_damage_scale_ct_head - 1.0
+mp_damage_scale_t_body - 1.0
+mp_damage_scale_t_head - 1.0
+mp_friendlyfire - 0
+ff_damage_reduction_bullets - 0.1
+ff_damage_reduction_grenade - 0.25
+ff_damage_reduction_grenade_self - 1
+ff_damage_reduction_other - 0.25
+mp_limitteams - 2
+spec_freeze_panel_extended_time - 0.0
+spec_freeze_time - 3.0
+mp_forcecamera - 1
+mp_respawn_immunitytime - 4.0
+mp_respawn_on_death_t - 0
+mp_respawn_on_death_ct - 0
+mp_display_kill_assists - 1
+mp_use_respawn_waves - 0
+mp_respawnwavetime_ct - 10.0
+mp_respawnwavetime_t - 10.0
+mp_randomspawn - 0
+mp_randomspawn_los - 1
+mp_randomspawn_dist - 0
+mp_radar_showall - 0
+mp_force_assign_teams - 0
+sv_gravity - 800
+sv_accelerate - 5.5
+sv_stopspeed - 80
+sv_airaccelerate - 12
+sv_wateraccelerate - 10
+sv_waterfriction - 1
+sv_friction - 5.2
+sv_bounce - 0
+sv_maxvelocity - 3500
+sv_maxspeed - 320
+sv_bot_buy_grenade_chance - 33
+sv_bot_buy_smoke_weight - 1
+sv_bot_buy_flash_weight - 1
+sv_bot_buy_decoy_weight - 1
+sv_bot_buy_molotov_weight - 1
+sv_bot_buy_hegrenade_weight - 6
+sv_guardian_min_wave_for_heavy - 0
+sv_guardian_max_wave_for_heavy - 0
+sv_guardian_heavy_count - 0
+sv_guardian_heavy_all - 0
+mp_ggprogressive_round_restart_delay - 15.0
+mp_ggtr_bomb_defuse_bonus - 1.0
+mp_ggtr_bomb_detonation_bonus - 1.0
+mp_ggtr_bomb_pts_for_flash - 4
+mp_ggtr_bomb_pts_for_he - 3
+mp_ggtr_bomb_pts_for_molotov - 5
+mp_ggtr_bomb_pts_for_upgrade - 2.0
+mp_ggtr_bomb_respawn_delay - 0.0
+mp_ggtr_end_round_kill_bonus - 1
+mp_ggtr_halftime_delay - 0.0
+mp_ggtr_last_weapon_kill_ends_half - 0
+sv_arms_race_vote_to_restart_disallowed_after - 0
+mp_coop_force_join_ct - 0
+bot_allow_rogues - 1
+mp_guardian_special_kills_needed - 10
+mp_guardian_special_weapon_needed - awp
+mp_guardian_player_dist_min - 1300
+mp_guardian_player_dist_max - 2000
+mp_guardian_target_site - -1
+mp_hostages_spawn_force_positions - 
+mp_hostages_spawn_same_every_round - 1
+mp_guardian_bot_money_per_wave - 800
+sv_disable_show_team_select_menu - 0
+mp_hostages_max - 2
+spec_replay_enable - 0
+mp_round_restart_delay - 7.0
+mp_coopmission_bot_difficulty_offset - 0
+sv_duplicate_playernames_ok - 0
+mp_anyone_can_pickup_c4 - 0
+mp_c4_cannot_be_defused - 0
+mp_c4timer - 40
+mp_coopmission_mission_number - 0
+weapon_reticle_knife_show - 0
+mp_death_drop_c4 - 1
+Executing listen server config file
+PrecacheScriptSound 'SprayCan.Paint' failed, no such sound script entry
+PlayerModelInfo: missing terrorist models for map waitmap. Adding the default model tm_phoenix.
+PlayerModelInfo: missing counter-terrorist models for map waitmap. Adding the default model ctm_st6.
+Commentary: Could not find commentary data file 'maps/waitmap_commentary.txt'. 
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Initializing Steam libraries for secure Internet server
+Logging into anonymous listen server account.
+Got network config from CDN.  Data contains revision 51, not newer than current revision 51; ignoring.
+Telling Steam it is safe to update the app
+Failed to read the default inventory image file (materials/icons/inventory_icon_quest.vtf)
+Failed to read the default inventory image file (materials/icons/inventory_icon_campaign.vtf)
+Failed to read the default inventory image file (materials/icons/inventory_icon_campaign.vtf)
+Connection to Steam servers successful.
+   Public IP is 101.177.126.74.
+Assigned anonymous gameserver Steam ID [A:1:294377480(7429)].
+Server using '<none>' lobbies, requiring pw no, lobby id ffffffffffffffff
+VAC secure mode is activated.
+GC Connection established for server version 365, instance idx 1
+
+Counter-Strike: Global Offensive
+Map: waitmap
+Players: 1 (0 bots) / 100 humans
+Build: 6527
+Server Number: 1
+
+No pure server whitelist. sv_pure = 0
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/bloomadd)
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/no_pixel_write)
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/lumcompare)
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/blurgaussian_3x3)
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/fade_blur)
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/halo_add_to_screen)
+PutClientInServer: no info_player_start on level
+thats a (high quality) meme connected.
+Doug connected.
+Calvin connected.
+Nate connected.
+Jon connected.
+Nick connected.
+CT bot spawned outside of a buy zone (-512, -160, 2)
+Terrorist bot spawned outside of a buy zone (-256, 288, 2)
+CT bot spawned outside of a buy zone (-640, 64, 2)
+CT bot spawned outside of a buy zone (-768, 288, 2)
+Terrorist bot spawned outside of a buy zone (-128, 64, 2)
+Error getting chrome HTML image: imageID(2), iIndex(65535)
+WARNING: demo network protocol 13546 differs, engine version is 13549 
+Playing demo from /home/jacob/CSGODemo/demo.dem.
+LoadingNewDemo123 
+Game will not start until both teams have players.
+Dropped thats a (high quality) meme from server: Disconnect
+WARNING: Server demo version 13546, client version 13549.
+Error: Material "___fillrate_0" uses unknown shader "FillRate"
+Error: Material "___debugnormalmap_1" uses unknown shader "DebugNormalMap"
+Error: Material "___debugdrawenvmapmask_2" uses unknown shader "DebugDrawEnvmapMask"
+Error: Material "___debugdepth_3" uses unknown shader "DebugDepth"
+Error: Material "___debugdepth_4" uses unknown shader "DebugDepth"
+Error: Material "debug/debugluxels" uses unknown shader "DebugLuxels"
+Requesting texture value from var "$basetexture" which is not a texture value (material: dev/constant_color)
+***String table CRC mismatch, may need to rebuild bsp if model oddities occur!
+SignalXWriteOpportunity(3)
+WARNING: demo network protocol 13546 differs, engine version is 13549 
+Achievements disabled: demo playing.
+Important Ticks in demo:
+Tick: 72 : RNG_yam killed Splyce DAVEY with a headshot using a usp_silencer
+Tick: 1134 : RNG_yam killed Splyce AcilioN with a headshot using a awp
+Tick: 1806 : RNG_yam killed Splyce arya using a awp
+Tick: 2736 : RNG_yam killed Splyce Machinegun with a headshot using a usp_silencer
+Tick: 2736  Event: round_end 
+Tick: 3338  Event: cs_pre_restart 
+Tick: 3380  Event: bomb_pickup 
+Tick: 3380  Event: round_start 
+Tick: 3380  Event: round_freeze_end 
+Tick: 5306  Event: bomb_dropped 
+Tick: 6196 : RNG_yam killed Splyce AcilioN with a headshot using a awp
+Tick: 6352 : Splyce DAVEY killed RNG_yam using a awp
+Tick: 7044 : RNG_peekaynoodle killed Splyce Machinegun using a m4a1_silencer
+Tick: 7222 : RNG_Rickehyo killed Splyce DAVEY using a m4a1_silencer
+Tick: 7882 : RNG_Rickehyo killed Splyce arya with a headshot using a awp
+Tick: 9312 : RNG_peekaynoodle killed Splyce CRUC1AL with a headshot using a m4a1_silencer
+Tick: 9312  Event: round_end 
+Tick: 9918  Event: cs_pre_restart 
+Tick: 9956  Event: bomb_pickup 
+Tick: 9956  Event: round_start 
+Tick: 9961  Event: round_freeze_end 
+Tick: 11453 : RNG_peekaynoodle killed  using a world
+Tick: 12282  Event: cs_pre_restart 
+Tick: 12326  Event: bomb_pickup 
+Tick: 12326  Event: round_start 
+Tick: 12410  Event: cs_pre_restart 
+Tick: 12448  Event: bomb_pickup 
+Tick: 12448  Event: round_start 
+Tick: 12924  Event: cs_pre_restart 
+Tick: 12962  Event: bomb_pickup 
+Tick: 12962  Event: round_start 
+Tick: 14882  Event: round_freeze_end 
+Tick: 16498 : Splyce Machinegun killed RNG_USTILO with a headshot using a usp_silencer
+Tick: 16936 : RNG_azr killed Splyce DAVEY with a headshot using a glock
+Tick: 17502 : Splyce AcilioN killed RNG_jks with a headshot using a usp_silencer
+Tick: 18054  Event: bomb_dropped 
+Tick: 18054 : Splyce Machinegun killed RNG_azr with a headshot using a usp_silencer
+Tick: 18164 : Splyce Machinegun killed RNG_yam with a headshot using a usp_silencer
+Tick: 18412 : RNG_Rickehyo killed Splyce Machinegun using a hkp2000
+Tick: 18550 : RNG_Rickehyo killed Splyce arya with a headshot using a hkp2000
+Tick: 18870 : Splyce CRUC1AL killed RNG_Rickehyo with a headshot using a usp_silencer
+Tick: 18870  Event: round_end 
+Tick: 19477  Event: cs_pre_restart 
+Tick: 19520  Event: bomb_pickup 
+Tick: 19520  Event: round_start 
+Tick: 21435  Event: round_freeze_end 
+Tick: 22365  Event: bomb_dropped 
+Tick: 25349  Event: bomb_pickup 
+Tick: 28163  Event: bomb_beginplant 
+Tick: 28553  Event: bomb_planted 
+Tick: 28873 : RNG_azr killed Splyce DAVEY with a headshot using a tec9
+Tick: 29803 : Splyce AcilioN killed RNG_Rickehyo with a headshot using a m4a1
+Tick: 30275 : RNG_yam killed Splyce CRUC1AL with a headshot using a deagle
+Tick: 30421 : Splyce Machinegun killed RNG_yam with a headshot using a m4a1_silencer
+Tick: 30601 : Splyce AcilioN killed RNG_azr using a m4a1
+Tick: 31035 : Splyce arya killed RNG_jks with a headshot using a mp9
+Tick: 31253  Event: bomb_begindefuse 
+Tick: 31329  Event: bomb_begindefuse 
+Tick: 31565 : Splyce Machinegun killed RNG_USTILO using a m4a1_silencer
+Tick: 31979  Event: bomb_defused 
+Tick: 31979  Event: round_end 
+Tick: 32581  Event: cs_pre_restart 
+Tick: 32618  Event: bomb_pickup 
+Tick: 32618  Event: round_start 
+Tick: 34233  Event: bomb_dropped 
+Tick: 34309  Event: bomb_pickup 
+Tick: 34539  Event: round_freeze_end 
+Tick: 39475 : RNG_USTILO killed Splyce Machinegun with a headshot using a p250
+Tick: 39585  Event: bomb_dropped 
+Tick: 39585 : Splyce DAVEY killed RNG_jks using a m4a1_silencer
+Tick: 39819 : RNG_yam killed Splyce DAVEY with a headshot using a m4a1_silencer
+Tick: 40321  Event: bomb_pickup 
+Tick: 40561  Event: bomb_beginplant 
+Tick: 40903 : Splyce AcilioN killed RNG_azr with a headshot using a m4a1
+Tick: 40951  Event: bomb_planted 
+Tick: 41763 : Splyce arya killed RNG_yam with a headshot using a mp9
+Tick: 42013 : RNG_Rickehyo killed Splyce CRUC1AL using a m4a1_silencer
+Tick: 42119 : Splyce AcilioN killed RNG_USTILO using a m4a1
+Tick: 42519 : Splyce AcilioN killed RNG_Rickehyo using a deagle
+Tick: 42759  Event: bomb_begindefuse 
+Tick: 43405  Event: bomb_defused 
+Tick: 43405  Event: round_end 
+Tick: 44007  Event: cs_pre_restart 
+Tick: 44045  Event: bomb_pickup 
+Tick: 44045  Event: round_start 
+Tick: 44421  Event: bomb_dropped 
+Tick: 44499  Event: bomb_pickup 
+Tick: 44579  Event: bomb_dropped 
+Tick: 45965  Event: round_freeze_end 
+Tick: 45989  Event: bomb_pickup 
+Tick: 47475  Event: bomb_dropped 
+Tick: 49931  Event: bomb_pickup 
+Tick: 53759  Event: bomb_dropped 
+Tick: 53771  Event: bomb_pickup 
+Tick: 57530 : RNG_azr killed Splyce arya with a headshot using a ak47
+Tick: 58024  Event: bomb_beginplant 
+Tick: 58288 : RNG_jks killed Splyce CRUC1AL using a ak47
+Tick: 58414  Event: bomb_planted 
+Tick: 61898 : Splyce Machinegun killed RNG_USTILO using a m4a1
+Tick: 63668  Event: round_end 
+Tick: 63668  Event: bomb_exploded 
+Tick: 64270  Event: cs_pre_restart 
+Tick: 64308  Event: bomb_pickup 
+Tick: 64308  Event: round_start 
+Tick: 64471  Event: bomb_dropped 
+Tick: 64593  Event: bomb_pickup 
+Tick: 66229  Event: round_freeze_end 
+Tick: 67117  Event: bomb_dropped 
+Tick: 69273 : RNG_USTILO killed Splyce Machinegun with a headshot using a ak47
+Tick: 70875 : RNG_jks killed Splyce arya with a headshot using a ak47
+Tick: 71889 : Splyce AcilioN killed RNG_azr using a m4a1
+Tick: 72045  Event: bomb_pickup 
+Tick: 72537 : RNG_Rickehyo killed Splyce AcilioN using a awp
+Tick: 72955 : RNG_USTILO killed Splyce DAVEY using a ak47
+Tick: 74023  Event: bomb_beginplant 
+Tick: 74411  Event: bomb_planted 
+Tick: 77011 : RNG_jks killed Splyce CRUC1AL using a ak47
+Tick: 77011  Event: round_end 
+Tick: 77615  Event: cs_pre_restart 
+Tick: 77658  Event: bomb_pickup 
+Tick: 77658  Event: round_start 
+Tick: 78202  Event: bomb_dropped 
+Tick: 79572  Event: round_freeze_end 
+Tick: 79904  Event: bomb_pickup 
+Tick: 81114 : RNG_USTILO killed Splyce DAVEY with a headshot using a ak47
+Tick: 81304 : RNG_jks killed Splyce arya with a headshot using a ak47
+Tick: 81488 : RNG_jks killed Splyce CRUC1AL with a headshot using a ak47
+Tick: 81676 : RNG_yam killed Splyce AcilioN using a ak47
+Tick: 82852 : Splyce Machinegun killed RNG_USTILO using a p250
+Tick: 82916 : RNG_azr killed Splyce Machinegun using a mac10
+Tick: 82916  Event: round_end 
+Tick: 83382  Event: bomb_beginplant 
+Tick: 83524  Event: cs_pre_restart 
+Tick: 83566  Event: bomb_pickup 
+Tick: 83566  Event: round_start 
+Tick: 85481  Event: round_freeze_end 
+Tick: 87427 : RNG_jks killed Splyce DAVEY with a headshot using a ak47
+Tick: 87703 : RNG_azr killed Splyce Machinegun using a ak47
+Tick: 88405  Event: bomb_beginplant 
+Tick: 88795  Event: bomb_planted 
+Tick: 92453 : Splyce AcilioN killed RNG_azr using a m4a1
+Tick: 92927 : Splyce CRUC1AL killed RNG_jks using a awp
+Tick: 92961 : RNG_USTILO killed Splyce CRUC1AL with a headshot using a ak47
+Tick: 93715 : Splyce AcilioN killed RNG_USTILO with a headshot using a m4a1
+Tick: 93741 : Splyce arya killed RNG_yam using a m4a1
+Tick: 94051  Event: round_end 
+Tick: 94051  Event: bomb_exploded 
+Tick: 94653  Event: cs_pre_restart 
+Tick: 94696  Event: bomb_pickup 
+Tick: 94696  Event: round_start 
+Tick: 95182  Event: bomb_dropped 
+Tick: 96611  Event: round_freeze_end 
+Tick: 96671  Event: bomb_pickup 
+Tick: 97087 : RNG_Rickehyo killed Splyce Machinegun using a awp
+Tick: 97459  Event: bomb_dropped 
+Tick: 97709 : RNG_azr killed Splyce CRUC1AL with a headshot using a ak47
+Tick: 97747 : RNG_azr killed Splyce arya using a ak47
+Tick: 98369  Event: bomb_pickup 
+Tick: 100471  Event: bomb_beginplant 
+Tick: 100537 : RNG_jks killed Splyce AcilioN using a ak47
+Tick: 100627 : Splyce DAVEY killed RNG_jks using a m4a1
+Tick: 100859  Event: bomb_planted 
+Tick: 101847 : RNG_USTILO killed Splyce DAVEY with a headshot using a ak47
+Tick: 101847  Event: round_end 
+Tick: 102455  Event: cs_pre_restart 
+Tick: 102497  Event: bomb_pickup 
+Tick: 102497  Event: round_start 
+Tick: 102800  Event: bomb_dropped 
+Tick: 102880  Event: bomb_pickup 
+Tick: 104412  Event: round_freeze_end 
+Tick: 104678  Event: bomb_dropped 
+Tick: 105098  Event: bomb_pickup 
+Tick: 106092 : RNG_USTILO killed Splyce Machinegun with a headshot using a ak47
+Tick: 107914 : RNG_yam killed Splyce DAVEY with a headshot using a ak47
+Tick: 108414 : RNG_azr killed Splyce CRUC1AL using a ak47
+Tick: 108490 : Splyce AcilioN killed RNG_USTILO using a fiveseven
+Tick: 108730 : RNG_Rickehyo killed Splyce AcilioN using a awp
+Tick: 108958 : RNG_yam killed Splyce arya with a headshot using a ak47
+Tick: 108958  Event: round_end 
+Tick: 109158  Event: bomb_beginplant 
+Tick: 109548  Event: bomb_planted 
+Tick: 109566  Event: cs_pre_restart 
+Tick: 109608  Event: bomb_pickup 
+Tick: 109608  Event: round_start 
+Tick: 111523  Event: round_freeze_end 
+Tick: 113065 : RNG_USTILO killed Splyce Machinegun with a headshot using a ak47
+Tick: 115021 : Splyce DAVEY killed RNG_azr using a m4a1_silencer
+Tick: 115123 : Splyce DAVEY killed RNG_USTILO using a m4a1_silencer
+Tick: 115201 : RNG_Rickehyo killed Splyce DAVEY using a awp
+Tick: 115245 : Splyce CRUC1AL killed RNG_yam using a awp
+Tick: 116337  Event: bomb_beginplant 
+Tick: 116725  Event: bomb_planted 
+Tick: 117573 : RNG_jks killed Splyce arya with a headshot using a ak47
+Tick: 117693 : Splyce AcilioN killed RNG_jks using a m4a1
+Tick: 119131 : Splyce CRUC1AL killed RNG_Rickehyo using a awp
+Tick: 119321  Event: bomb_begindefuse 
+Tick: 119965  Event: bomb_defused 
+Tick: 119965  Event: round_end 
+Tick: 120567  Event: cs_pre_restart 
+Tick: 120605  Event: bomb_pickup 
+Tick: 120605  Event: round_start 
+Tick: 122526  Event: round_freeze_end 
+Tick: 124312 : RNG_Rickehyo killed Splyce DAVEY using a awp
+Tick: 124704 : RNG_USTILO killed Splyce Machinegun using a ak47
+Tick: 125498 : RNG_jks killed Splyce arya with a headshot using a ak47
+Tick: 127162  Event: bomb_beginplant 
+Tick: 127550  Event: bomb_planted 
+Tick: 129508 : RNG_USTILO killed Splyce CRUC1AL with a headshot using a ak47
+Tick: 130066 : RNG_jks killed Splyce AcilioN using a ak47
+Tick: 130066  Event: round_end 
+Tick: 130674  Event: cs_pre_restart 
+Tick: 130716  Event: bomb_pickup 
+Tick: 130716  Event: round_start 
+Tick: 132632  Event: round_freeze_end 
+Tick: 134352 : RNG_USTILO killed Splyce Machinegun with a headshot using a ak47
+Tick: 134582 : RNG_USTILO killed Splyce DAVEY with a headshot using a ak47
+Tick: 135190  Event: bomb_beginplant 
+Tick: 135580  Event: bomb_planted 
+Tick: 135976 : RNG_yam killed Splyce arya with a headshot using a awp
+Tick: 136672 : Splyce AcilioN killed RNG_Rickehyo with a headshot using a fiveseven
+Tick: 137202 : RNG_yam killed Splyce CRUC1AL with a headshot using a tec9
+Tick: 137352 : Splyce AcilioN killed RNG_yam using a awp
+Tick: 138038 : RNG_azr killed Splyce AcilioN with a headshot using a ak47
+Tick: 138038  Event: round_end 
+Tick: 138646  Event: cs_pre_restart 
+Tick: 138689  Event: bomb_pickup 
+Tick: 138689  Event: round_start 
+Tick: 139917  Event: bomb_dropped 
+Tick: 139993  Event: bomb_pickup 
+Tick: 140603  Event: round_freeze_end 
+Tick: 142041 : RNG_azr killed Splyce AcilioN with a headshot using a ak47
+Tick: 142421 : RNG_azr killed Splyce CRUC1AL using a ak47
+Tick: 143029 : RNG_USTILO killed Splyce arya with a headshot using a ak47
+Tick: 143067 : RNG_azr killed Splyce DAVEY using a ak47
+Tick: 144253  Event: bomb_beginplant 
+Tick: 144643  Event: bomb_planted 
+Tick: 145491 : Splyce Machinegun killed RNG_jks with a headshot using a usp_silencer
+Tick: 145591 : RNG_USTILO killed Splyce Machinegun using a ak47
+Tick: 145591  Event: round_end 
+Tick: 146197  Event: cs_pre_restart 
+Tick: 146235  Event: bomb_pickup 
+Tick: 146235  Event: round_start 
+Tick: 147276  Event: bomb_dropped 
+Tick: 147364  Event: bomb_pickup 
+Tick: 148156  Event: round_freeze_end 
+Tick: 154480  Event: bomb_dropped 
+Tick: 154504 : RNG_jks killed Splyce CRUC1AL with a headshot using a ak47
+Tick: 154844 : RNG_azr killed Splyce arya with a headshot using a ak47
+Tick: 155048  Event: bomb_pickup 
+Tick: 156108  Event: bomb_beginplant 
+Tick: 156498  Event: bomb_planted 
+Tick: 157432 : RNG_azr killed Splyce AcilioN with a headshot using a ak47
+Tick: 157452 : RNG_USTILO killed Splyce Machinegun using a ak47
+Tick: 157492 : Splyce DAVEY killed RNG_USTILO using a m4a1_silencer
+Tick: 158444 : Splyce DAVEY killed RNG_jks using a m4a1_silencer
+Tick: 158696 : Splyce DAVEY killed RNG_yam with a headshot using a m4a1_silencer
+Tick: 159476 : Splyce DAVEY killed RNG_Rickehyo using a m4a1_silencer
+Tick: 159800 : RNG_azr killed Splyce DAVEY using a ak47
+Tick: 159800  Event: round_end 
+Tick: 160406  Event: cs_pre_restart 
+Tick: 160449  Event: bomb_pickup 
+Tick: 160449  Event: round_start 
+Tick: 162363  Event: round_freeze_end 
+Tick: 163053 : Splyce arya killed RNG_yam with a headshot using a ssg08
+Tick: 167464 : Splyce DAVEY killed RNG_USTILO using a m4a1_silencer
+Tick: 168628 : Splyce CRUC1AL killed RNG_jks using a famas
+Tick: 170468 : Splyce AcilioN killed RNG_azr using a ump45
+Tick: 170580 : RNG_Rickehyo killed Splyce AcilioN using a awp
+Tick: 172552 : RNG_Rickehyo killed Splyce CRUC1AL using a awp
+Tick: 174562  Event: bomb_beginplant 
+Tick: 174670  Event: bomb_dropped 
+Tick: 174670 : Splyce arya killed RNG_Rickehyo using a ssg08
+Tick: 174670  Event: round_end 
+Tick: 175209  Event: cs_pre_restart 
+Tick: 175255  Event: bomb_pickup 
+Tick: 175255  Event: round_start 
+Tick: 175255  Event: round_freeze_end 
+Tick: 176720 : Splyce Machinegun killed RNG_USTILO using a awp
+Tick: 177134 : RNG_azr killed Splyce DAVEY with a headshot using a m4a1
+Tick: 177272  Event: cs_pre_restart 
+Tick: 177310  Event: bomb_pickup 
+Tick: 177310  Event: round_start 
+Tick: 177531  Event: cs_pre_restart 
+Tick: 177573  Event: bomb_pickup 
+Tick: 177573  Event: round_start 
+Tick: 177916  Event: cs_pre_restart 
+Tick: 177958  Event: bomb_pickup 
+Tick: 177958  Event: round_start 
+Tick: 178101  Event: bomb_dropped 
+Tick: 178111  Event: bomb_pickup 
+Tick: 190709  Event: round_freeze_end 
+Tick: 192951 : RNG_azr killed Splyce Machinegun with a headshot using a usp_silencer
+Tick: 194923  Event: bomb_dropped 
+Tick: 194923 : RNG_USTILO killed Splyce CRUC1AL with a headshot using a usp_silencer
+Tick: 195221  Event: bomb_pickup 
+Tick: 197431 : RNG_Rickehyo killed Splyce DAVEY with a headshot using a usp_silencer
+Tick: 198601 : RNG_Rickehyo killed Splyce AcilioN with a headshot using a usp_silencer
+Tick: 200797  Event: bomb_dropped 
+Tick: 200797 : RNG_USTILO killed Splyce arya using a usp_silencer
+Tick: 200797  Event: round_end 
+Tick: 201403  Event: cs_pre_restart 
+Tick: 201445  Event: bomb_pickup 
+Tick: 201445  Event: round_start 
+Tick: 202799  Event: bomb_dropped 
+Tick: 202879  Event: bomb_pickup 
+Tick: 203051  Event: bomb_dropped 
+Tick: 203131  Event: bomb_pickup 
+Tick: 203361  Event: round_freeze_end 
+Tick: 203393  Event: bomb_dropped 
+Tick: 203469  Event: bomb_pickup 
+Tick: 203691  Event: bomb_dropped 
+Tick: 203825  Event: bomb_pickup 
+Tick: 205109 : RNG_Rickehyo killed Splyce AcilioN using a ssg08
+Tick: 205203 : Splyce arya killed RNG_jks using a tec9
+Tick: 205789 : RNG_yam killed Splyce arya using a usp_silencer
+Tick: 206141 : Splyce Machinegun killed RNG_Rickehyo with a headshot using a tec9
+Tick: 206165  Event: bomb_beginplant 
+Tick: 206555  Event: bomb_planted 
+Tick: 207803 : Splyce CRUC1AL killed RNG_USTILO using a p250
+Tick: 207921 : RNG_yam killed Splyce CRUC1AL using a ump45
+Tick: 207973 : Splyce Machinegun killed RNG_yam using a tec9
+Tick: 209373 : Splyce DAVEY killed RNG_azr with a headshot using a tec9
+Tick: 209373  Event: round_end 
+Tick: 209979  Event: cs_pre_restart 
+Tick: 210017  Event: bomb_pickup 
+Tick: 210017  Event: round_start 
+Tick: 211814  Event: bomb_dropped 
+Tick: 211938  Event: round_freeze_end 
+Tick: 212122  Event: bomb_pickup 
+Tick: 213692  Event: bomb_dropped 
+Tick: 216208  Event: bomb_pickup 
+Tick: 220036  Event: bomb_dropped 
+Tick: 220036 : RNG_Rickehyo killed Splyce arya with a headshot using a deagle
+Tick: 220210 : Splyce CRUC1AL killed RNG_Rickehyo using a ak47
+Tick: 220386 : Splyce DAVEY killed RNG_azr with a headshot using a ump45
+Tick: 220570  Event: bomb_pickup 
+Tick: 221236 : RNG_USTILO killed Splyce DAVEY using a ump45
+Tick: 221274 : Splyce AcilioN killed RNG_USTILO with a headshot using a ump45
+Tick: 221966 : RNG_jks killed Splyce AcilioN with a headshot using a p250
+Tick: 223400  Event: bomb_beginplant 
+Tick: 223790  Event: bomb_planted 
+Tick: 226426 : RNG_jks killed Splyce CRUC1AL using a ump45
+Tick: 227228 : RNG_yam killed Splyce Machinegun using a p250
+Tick: 227528  Event: bomb_begindefuse 
+Tick: 228816  Event: bomb_defused 
+Tick: 228816  Event: round_end 
+Tick: 229418  Event: cs_pre_restart 
+Tick: 229456  Event: bomb_pickup 
+Tick: 229456  Event: round_start 
+Tick: 229631  Event: bomb_dropped 
+Tick: 231376  Event: round_freeze_end 
+Tick: 234530 : RNG_USTILO killed Splyce DAVEY with a headshot using a m4a1_silencer
+Tick: 234868 : RNG_yam killed Splyce AcilioN using a m4a1
+Tick: 234922  Event: bomb_pickup 
+Tick: 235130 : RNG_USTILO killed Splyce arya using a m4a1_silencer
+Tick: 236551 : RNG_Rickehyo killed Splyce Machinegun using a ak47
+Tick: 238335  Event: bomb_dropped 
+Tick: 238335 : RNG_Rickehyo killed Splyce CRUC1AL using a ak47
+Tick: 238335  Event: round_end 
+Tick: 238941  Event: cs_pre_restart 
+Tick: 238979  Event: bomb_pickup 
+Tick: 238979  Event: round_start 
+Tick: 239670  Event: bomb_dropped 
+Tick: 240900  Event: round_freeze_end 
+Tick: 240916  Event: bomb_pickup 
+Tick: 241672  Event: bomb_dropped 
+Tick: 241752  Event: bomb_pickup 
+Tick: 243470 : RNG_azr killed Splyce CRUC1AL with a headshot using a m4a1
+Tick: 243808 : RNG_azr killed Splyce DAVEY with a headshot using a m4a1
+Tick: 243884  Event: bomb_dropped 
+Tick: 243884 : RNG_azr killed Splyce arya with a headshot using a m4a1
+Tick: 245522 : Splyce Machinegun killed RNG_azr with a headshot using a p250
+Tick: 245988 : RNG_jks killed Splyce AcilioN using a ak47
+Tick: 246262 : RNG_jks killed Splyce Machinegun with a headshot using a ak47
+Tick: 246262  Event: round_end 
+Tick: 246864  Event: cs_pre_restart 
+Tick: 246902  Event: bomb_pickup 
+Tick: 246902  Event: round_start 
+Tick: 248823  Event: round_freeze_end 
+Tick: 250887  Event: bomb_dropped 
+Tick: 251029 : RNG_Rickehyo killed Splyce arya using a awp
+Tick: 251035  Event: bomb_pickup 
+Tick: 252085  Event: bomb_dropped 
+Tick: 252593 : Splyce DAVEY killed RNG_USTILO with a headshot using a ak47
+Tick: 253175 : RNG_yam killed Splyce DAVEY with a headshot using a m4a1
+Tick: 254197  Event: bomb_pickup 
+Tick: 256009  Event: bomb_dropped 
+Tick: 258761  Event: bomb_pickup 
+Tick: 261263 : RNG_yam killed Splyce CRUC1AL with a headshot using a m4a1
+Tick: 261385 : Splyce AcilioN killed RNG_yam using a ak47
+Tick: 261805 : Splyce AcilioN killed RNG_azr using a ak47
+Tick: 262195  Event: bomb_dropped 
+Tick: 262195 : RNG_jks killed Splyce AcilioN using a ak47
+Tick: 262377 : RNG_jks killed Splyce Machinegun with a headshot using a ak47
+Tick: 262377  Event: round_end 
+Tick: 262978  Event: cs_pre_restart 
+Tick: 263016  Event: bomb_pickup 
+Tick: 263016  Event: round_start 
+Tick: 264936  Event: round_freeze_end 
+Tick: 266868 : RNG_yam killed Splyce Machinegun with a headshot using a m4a1
+Tick: 267014  Event: bomb_dropped 
+Tick: 267014 : RNG_USTILO killed Splyce arya using a m4a1_silencer
+Tick: 267092  Event: bomb_pickup 
+Tick: 267214 : Splyce DAVEY killed RNG_USTILO with a headshot using a tec9
+Tick: 268164  Event: bomb_dropped 
+Tick: 272854 : RNG_azr killed Splyce CRUC1AL using a m4a1
+Tick: 274086  Event: bomb_pickup 
+Tick: 275622 : RNG_Rickehyo killed Splyce AcilioN using a awp
+Tick: 275891  Event: bomb_dropped 
+Tick: 275891 : RNG_azr killed Splyce DAVEY using a m4a1
+Tick: 275891  Event: round_end 
+Tick: 276473  Event: cs_pre_restart 
+Tick: 276511  Event: bomb_pickup 
+Tick: 276511  Event: round_start 
+Tick: 276516  Event: round_freeze_end 
+Tick: 276778  Event: bomb_dropped 
+GameTypes: could not find matching game mode "(null)" for type "custom".
+GamesTypes: unable to get game type and mode. Could not find type/mode matching type:custom/mode:(null).
+---- Host_NewGame ----
+Error: Material "___fillrate_0" uses unknown shader "FillRate"
+Error: Material "___debugnormalmap_1" uses unknown shader "DebugNormalMap"
+Error: Material "___debugdrawenvmapmask_2" uses unknown shader "DebugDrawEnvmapMask"
+Error: Material "___debugdepth_3" uses unknown shader "DebugDepth"
+Error: Material "___debugdepth_4" uses unknown shader "DebugDepth"
+Error: Material "debug/debugluxels" uses unknown shader "DebugLuxels"
+#######################################
+Map waitmap missing stringtable dictionary, don't ship this way!!!
+Run with -stringtables on the command line or convar
+stringtable_alwaysrebuilddictionaries enabled to build the string table
+#######################################
+Host_NewGame on map waitmap
+GameTypes: missing mapgroupsSP entry for game type/mode (custom/custom).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/cooperative).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/coopmission).
+bot_autodifficulty_threshold_high - 5.0
+bot_autodifficulty_threshold_low - -2.0
+bot_chatter - normal
+bot_defer_to_human_goals - 0
+bot_defer_to_human_items - 1
+bot_difficulty - 1
+bot_quota - 10
+bot_quota_mode - normal
+bot_allow_grenades - 1
+bot_allow_pistols - 1
+bot_allow_sub_machine_guns - 1
+bot_allow_shotguns - 1
+bot_allow_rifles - 1
+bot_allow_snipers - 1
+bot_allow_machine_guns - 1
+sv_auto_adjust_bot_difficulty - 1
+sv_bots_get_easier_each_win - 0
+sv_bots_force_rebuy_every_round - 0
+sv_bots_get_harder_after_each_wave - 0
+mp_playercashawards - 1
+cash_player_bomb_defused - 300
+cash_player_bomb_planted - 300
+cash_player_damage_hostage - -30
+cash_player_interact_with_hostage - 150
+cash_player_killed_enemy_default - 300
+cash_player_killed_enemy_factor - 1
+cash_player_killed_hostage - -1000
+cash_player_killed_teammate - -300
+cash_player_rescued_hostage - 1000
+cash_player_respawn_amount - 0
+cash_player_get_killed - 0
+mp_teamcashawards - 1
+cash_team_elimination_bomb_map - 3250
+cash_team_elimination_hostage_map_t - 1000
+cash_team_elimination_hostage_map_ct - 2000
+cash_team_hostage_alive - 0
+cash_team_hostage_interaction - 500
+cash_team_loser_bonus - 1400
+cash_team_loser_bonus_consecutive_rounds - 500
+cash_team_planted_bomb_but_defused - 800
+cash_team_rescued_hostage - 0
+cash_team_terrorist_win_bomb - 3500
+cash_team_win_by_defusing_bomb - 3250
+cash_team_win_by_hostage_rescue - 3500
+cash_team_win_by_time_running_out_bomb - 3250
+cash_team_win_by_time_running_out_hostage - 3250
+cash_team_survive_guardian_wave - 1000
+mp_afterroundmoney - 0
+mp_buytime - 90
+mp_buy_anywhere - 0
+mp_buy_during_immunity - 0
+mp_startmoney - 800
+mp_maxmoney - 16000
+sv_buy_status_override - -1
+mp_death_drop_defuser - 1
+mp_death_drop_grenade - 2
+mp_death_drop_gun - 1
+mp_deathcam_skippable - 1
+mp_defuser_allocation - 0
+mp_give_player_c4 - 1
+mp_free_armor - 0
+mp_molotovusedelay - 15.0
+mp_weapons_allow_zeus - 1
+mp_weapons_allow_map_placed - 0
+mp_weapons_glow_on_ground - 0
+mp_ct_default_melee - weapon_knife
+mp_ct_default_secondary - weapon_hkp2000
+mp_ct_default_primary - 
+mp_ct_default_grenades - 
+mp_t_default_melee - weapon_knife
+mp_t_default_secondary - weapon_glock
+mp_t_default_primary - 
+mp_t_default_grenades - 
+mp_buy_allow_grenades - 1
+mp_weapons_allow_typecount - 5
+mp_freezetime - 6
+mp_force_pick_time - 15
+mp_halftime - 0
+mp_match_can_clinch - 1
+mp_maxrounds - 0
+mp_roundtime - 5
+mp_roundtime_defuse - 0
+mp_roundtime_hostage - 0
+mp_timelimit - 5
+mp_warmuptime - 30
+mp_warmuptime_all_players_connected - 60
+mp_warmup_pausetimer - 0
+mp_halftime_pausetimer - 0
+mp_default_team_winner_no_objective - -1
+mp_hostagepenalty - 10
+mp_solid_teammates - 1
+sv_allow_votes - 1
+sv_alltalk - 0
+sv_auto_full_alltalk_during_warmup_half_end - 1
+sv_deadtalk - 0
+sv_ignoregrenaderadio - 0
+mp_teammates_are_enemies - 0
+mp_damage_scale_ct_body - 1.0
+mp_damage_scale_ct_head - 1.0
+mp_damage_scale_t_body - 1.0
+mp_damage_scale_t_head - 1.0
+mp_friendlyfire - 0
+ff_damage_reduction_bullets - 0.1
+ff_damage_reduction_grenade - 0.25
+ff_damage_reduction_grenade_self - 1
+ff_damage_reduction_other - 0.25
+mp_limitteams - 2
+spec_freeze_panel_extended_time - 0.0
+spec_freeze_time - 3.0
+mp_forcecamera - 1
+mp_respawn_immunitytime - 4.0
+mp_respawn_on_death_t - 0
+mp_respawn_on_death_ct - 0
+mp_display_kill_assists - 1
+mp_use_respawn_waves - 0
+mp_respawnwavetime_ct - 10.0
+mp_respawnwavetime_t - 10.0
+mp_randomspawn - 0
+mp_randomspawn_los - 1
+mp_randomspawn_dist - 0
+mp_radar_showall - 0
+mp_force_assign_teams - 0
+sv_gravity - 800
+sv_accelerate - 5.5
+sv_stopspeed - 80
+sv_airaccelerate - 12
+sv_wateraccelerate - 10
+sv_waterfriction - 1
+sv_friction - 5.2
+sv_bounce - 0
+sv_maxvelocity - 3500
+sv_maxspeed - 320
+sv_bot_buy_grenade_chance - 33
+sv_bot_buy_smoke_weight - 1
+sv_bot_buy_flash_weight - 1
+sv_bot_buy_decoy_weight - 1
+sv_bot_buy_molotov_weight - 1
+sv_bot_buy_hegrenade_weight - 6
+sv_guardian_min_wave_for_heavy - 0
+sv_guardian_max_wave_for_heavy - 0
+sv_guardian_heavy_count - 0
+sv_guardian_heavy_all - 0
+mp_ggprogressive_round_restart_delay - 15.0
+mp_ggtr_bomb_defuse_bonus - 1.0
+mp_ggtr_bomb_detonation_bonus - 1.0
+mp_ggtr_bomb_pts_for_flash - 4
+mp_ggtr_bomb_pts_for_he - 3
+mp_ggtr_bomb_pts_for_molotov - 5
+mp_ggtr_bomb_pts_for_upgrade - 2.0
+mp_ggtr_bomb_respawn_delay - 0.0
+mp_ggtr_end_round_kill_bonus - 1
+mp_ggtr_halftime_delay - 0.0
+mp_ggtr_last_weapon_kill_ends_half - 0
+sv_arms_race_vote_to_restart_disallowed_after - 0
+mp_coop_force_join_ct - 0
+bot_allow_rogues - 1
+mp_guardian_special_kills_needed - 10
+mp_guardian_special_weapon_needed - awp
+mp_guardian_player_dist_min - 1300
+mp_guardian_player_dist_max - 2000
+mp_guardian_target_site - -1
+mp_hostages_spawn_force_positions - 
+mp_hostages_spawn_same_every_round - 1
+mp_guardian_bot_money_per_wave - 800
+sv_disable_show_team_select_menu - 0
+mp_hostages_max - 2
+spec_replay_enable - 0
+mp_round_restart_delay - 7.0
+mp_coopmission_bot_difficulty_offset - 0
+sv_duplicate_playernames_ok - 0
+mp_anyone_can_pickup_c4 - 0
+mp_c4_cannot_be_defused - 0
+mp_c4timer - 40
+mp_coopmission_mission_number - 0
+weapon_reticle_knife_show - 0
+mp_death_drop_c4 - 1
+Executing listen server config file
+Commentary: Could not find commentary data file 'maps/waitmap_commentary.txt'. 
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Error parsing BotProfile.db - unknown attribute 'Rank'
+Initializing Steam libraries for secure Internet server
+Logging into anonymous listen server account.
+Connection to Steam servers successful.
+   Public IP is 101.177.126.74.
+Assigned anonymous gameserver Steam ID [A:1:294878210(7429)].
+Server using '<none>' lobbies, requiring pw no, lobby id ffffffffffffffff
+VAC secure mode is activated.
+
+Counter-Strike: Global Offensive
+Map: waitmap
+Players: 1 (0 bots) / 1 humans
+Build: 6527
+Server Number: 2
+
+No pure server whitelist. sv_pure = 0
+GC Connection established for server version 365, instance idx 2
+PutClientInServer: no info_player_start on level
+thats a (high quality) meme connected.
+0:  Reinitialized 2 predictable entities

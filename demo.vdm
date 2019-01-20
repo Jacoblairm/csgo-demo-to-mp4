@@ -1,0 +1,184 @@
+demoactions
+{
+	"1"
+	{
+		factory "SkipAhead"
+		name "Unnamed1"
+		starttick "0"
+		skiptotick "-49"
+	}
+	"2"
+	{
+		factory "SkipAhead"
+		name "Unnamed2"
+		starttick "2786"
+		skiptotick "3330"
+	}
+	"3"
+	{
+		factory "SkipAhead"
+		name "Unnamed3"
+		starttick "9362"
+		skiptotick "14832"
+	}
+	"4"
+	{
+		factory "SkipAhead"
+		name "Unnamed4"
+		starttick "18104"
+		skiptotick "21385"
+	}
+	"5"
+	{
+		factory "SkipAhead"
+		name "Unnamed5"
+		starttick "30651"
+		skiptotick "34489"
+	}
+	"6"
+	{
+		factory "SkipAhead"
+		name "Unnamed6"
+		starttick "40953"
+		skiptotick "45915"
+	}
+	"7"
+	{
+		factory "SkipAhead"
+		name "Unnamed7"
+		starttick "63718"
+		skiptotick "66179"
+	}
+	"8"
+	{
+		factory "SkipAhead"
+		name "Unnamed8"
+		starttick "71939"
+		skiptotick "79522"
+	}
+	"9"
+	{
+		factory "SkipAhead"
+		name "Unnamed9"
+		starttick "82966"
+		skiptotick "85431"
+	}
+	"10"
+	{
+		factory "SkipAhead"
+		name "Unnamed10"
+		starttick "92503"
+		skiptotick "96561"
+	}
+	"11"
+	{
+		factory "SkipAhead"
+		name "Unnamed11"
+		starttick "101897"
+		skiptotick "104362"
+	}
+	"12"
+	{
+		factory "SkipAhead"
+		name "Unnamed12"
+		starttick "109008"
+		skiptotick "111473"
+	}
+	"13"
+	{
+		factory "SkipAhead"
+		name "Unnamed13"
+		starttick "115071"
+		skiptotick "122476"
+	}
+	"14"
+	{
+		factory "SkipAhead"
+		name "Unnamed14"
+		starttick "130116"
+		skiptotick "132582"
+	}
+	"15"
+	{
+		factory "SkipAhead"
+		name "Unnamed15"
+		starttick "138088"
+		skiptotick "140553"
+	}
+	"16"
+	{
+		factory "SkipAhead"
+		name "Unnamed16"
+		starttick "145641"
+		skiptotick "148106"
+	}
+	"17"
+	{
+		factory "SkipAhead"
+		name "Unnamed17"
+		starttick "159850"
+		skiptotick "162313"
+	}
+	"18"
+	{
+		factory "SkipAhead"
+		name "Unnamed18"
+		starttick "170518"
+		skiptotick "190659"
+	}
+	"19"
+	{
+		factory "SkipAhead"
+		name "Unnamed19"
+		starttick "200847"
+		skiptotick "203311"
+	}
+	"20"
+	{
+		factory "SkipAhead"
+		name "Unnamed20"
+		starttick "209423"
+		skiptotick "211888"
+	}
+	"21"
+	{
+		factory "SkipAhead"
+		name "Unnamed21"
+		starttick "220436"
+		skiptotick "231326"
+	}
+	"22"
+	{
+		factory "SkipAhead"
+		name "Unnamed22"
+		starttick "238385"
+		skiptotick "240850"
+	}
+	"23"
+	{
+		factory "SkipAhead"
+		name "Unnamed23"
+		starttick "245572"
+		skiptotick "248773"
+	}
+	"24"
+	{
+		factory "SkipAhead"
+		name "Unnamed24"
+		starttick "261855"
+		skiptotick "264886"
+	}
+	"25"
+	{
+		factory "SkipAhead"
+		name "Unnamed25"
+		starttick "275941"
+		skiptotick "276466"
+	}
+	"26"
+	{
+		name "Unnamed26"
+		factory "StopPlayback"
+		starttick "276466"
+	}
+}

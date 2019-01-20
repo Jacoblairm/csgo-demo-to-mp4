@@ -1,0 +1,302 @@
+#!/bin/bash
+#Dump Processor v1.1 - added hex text input
+
+player=$(echo -e "$1")
+
+if [ "$2" == "-nohex" ]
+then
+	player="$1"
+fi
+
+#Clean up existing files
+#----------------------------------
+if [ -f "/home/jacob/CSGODemo/tempticks" ]; then  rm "/home/jacob/CSGODemo/tempticks"; fi
+if [ -f "/home/jacob/CSGODemo/tempticks1" ]; then  rm "/home/jacob/CSGODemo/tempticks1"; fi
+if [ -f "/home/jacob/CSGODemo/demo.vdm" ]; then  rm "/home/jacob/CSGODemo/demo.vdm"; fi
+
+#----------------------------------
+
+#Trim top
+#----------------------------------
+IFS=$'\n'
+set -f
+trimvar="-1"
+linenumber="1"
+for i in $(cat "/home/jacob/CSGODemo/condump"); do
+	if [[ "$i" == *"LoadingNewDemo123"* ]]
+	then
+	trimvar="$linenumber"
+	echo "$trimvar $i"
+	fi
+	linenumber=$(($linenumber+1))
+done
+tail -n+$trimvar "/home/jacob/CSGODemo/condump" >> "/home/jacob/CSGODemo/tempticks"
+#----------------------------------
+#Separate "Event: round_freeze_end" and player name into own file
+#fix user input for sed by escaping special characters
+#----------------------------------
+killedvar="killed "
+escaped="$killedvar$player"
+escaped="${escaped//\\/\\\\}"
+escaped="${escaped//\//\\/}"
+escaped="${escaped//\*/\\*}"
+escaped="${escaped//./\\.}"    
+escaped="${escaped//\[/\\[}"
+escaped="${escaped//\]/\\]}"
+escaped="${escaped//^/\\^}"
+escaped="${escaped//\$/\\\$}"
+escaped="${escaped//[$'\n']/}" 
+#----------------------------------
+echo $escaped
+
+#Separate the ticks into its own file
+#----------------------------------
+awk '/Tick: /' "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/tempticks1"
+awk '/Tick: /' "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/tempticks2"
+awk '/Tick: /' "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/tempticks3"
+rm "/home/jacob/CSGODemo/tempticks"
+sed -i "/$escaped/!d" "/home/jacob/CSGODemo/tempticks1"
+sed -i '/Event: round_freeze_end/!d' "/home/jacob/CSGODemo/tempticks2"
+sed -i '/Event: round_end/!d' "/home/jacob/CSGODemo/tempticks3"
+
+cat "/home/jacob/CSGODemo/tempticks1" "/home/jacob/CSGODemo/tempticks2" "/home/jacob/CSGODemo/tempticks3" > "/home/jacob/CSGODemo/tempticks"
+
+rm "/home/jacob/CSGODemo/tempticks1"
+rm "/home/jacob/CSGODemo/tempticks2"
+rm "/home/jacob/CSGODemo/tempticks3"
+#----------------------------------
+
+
+#Sort each line
+#----------------------------------
+sort -n -k2 "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/tempticks1"
+rm "/home/jacob/CSGODemo/tempticks"
+#----------------------------------
+cat "/home/jacob/CSGODemo/tempticks1" > "/home/jacob/CSGODemo/ttest1"
+
+#Remove warmup ticks
+#----------------------------------
+ii=1
+kk=0
+for i in $(cat "/home/jacob/CSGODemo/tempticks1"); do
+	if [[ "$i" == *"Event: round_freeze_end"* ]]
+	then
+		kk=$ii
+	fi
+	if [[ "$i" == *"Event: round_end"* ]]
+	then
+		break
+	fi
+	ii=$(($ii+1))
+done
+
+echo "Tick: 0  Event: round_end" > "/home/jacob/CSGODemo/tempticks"
+
+
+firstline=$(tail -n+$kk "/home/jacob/CSGODemo/tempticks1" | head -n 1)
+if [[ "$firstline" != *"Event: round_freeze_end"* ]]
+then
+echo "Tick: 1  Event: round_freeze_end " >> "/home/jacob/CSGODemo/tempticks"
+fi
+echo "$firstline"
+
+tail -n+$kk "/home/jacob/CSGODemo/tempticks1" >> "/home/jacob/CSGODemo/tempticks" 
+rm "/home/jacob/CSGODemo/tempticks1"
+
+cat "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/ttest2"
+#----------------------------------
+
+
+
+#Cleanup ticks
+#----------------------------------
+#clean after death round_end
+for ((s=1;s<=10;s++));
+do
+ii=1
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"Event: round_end"* ]]
+	then
+		if [[ "$b" == *"killed $player"* ]]
+		then
+			sed -i "$ii"'s/^/Lne2bDel3t3dadg/' "/home/jacob/CSGODemo/tempticks"
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+sed -i '/Lne2bDel3t3dadg/d' "/home/jacob/CSGODemo/tempticks"
+done
+
+cat "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/ttest3"
+
+#clean after round deaths
+for ((s=1;s<=10;s++));
+do
+ii=1
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"killed $player"* ]]
+	then
+		if [[ "$b" == *"Event: round_end"* ]]
+		then
+			sed -i "$ii"'s/^/Lne2bDel3t3dadg/' "/home/jacob/CSGODemo/tempticks"
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+#sed -i '/Lne2bDel3t3dadg/d' "/home/jacob/CSGODemo/tempticks"
+done
+
+cat "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/ttest4"
+
+#get rid of non live rounds
+ii=0
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"Event: round_freeze_end"* ]]
+	then
+		if [[ "$b" == *"Event: round_freeze_end"* ]]
+		then
+			sed -i "$ii"'s/^/Lne2bDel3t3dadg/' "/home/jacob/CSGODemo/tempticks"
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+
+ii=1
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"$escaped"* ]]
+	then
+		if [[ "$b" == *"$escaped"* ]]
+		then
+			sed -i "$ii"'s/^/Lne2bDel3t3dadg/' "/home/jacob/CSGODemo/tempticks"
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+
+
+sed -i '/Lne2bDel3t3dadg/d' "/home/jacob/CSGODemo/tempticks"
+
+
+ii=1
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"Event: round_end "* ]]
+	then
+		if [[ "$b" == *"Event: round_end "* ]]
+		then
+			sed -i "$ii"'s/^/Lne2bDel3t3dadg/' "/home/jacob/CSGODemo/tempticks"
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+
+sed -i '/Lne2bDel3t3dadg/d' "/home/jacob/CSGODemo/tempticks"
+
+
+#fix final round round_end/freeze_end same tick number
+ii=1
+b=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == *"Event: round_freeze_end"* ]]
+	then
+		if [[ "$b" == *"Event: round_end"* ]]
+		then
+			itick=$(echo "$i" | sed 's/\  Event.*$//')
+			btick=$(echo "$b" | sed 's/\  Event.*$//')
+			if [[ "$itick" == "$btick" ]]
+			then
+			ticknum=$(echo "$itick" | sed 's!Tick: !!')
+			ticknum=$(($ticknum+1))
+			newline="Tick: $ticknum  Event: round_freeze_end"
+
+			sed -i "$ii""s#.*#Tick: $ticknum  Event: round_freeze_end#" "/home/jacob/CSGODemo/tempticks"
+			fi
+		fi
+	fi
+	b="$i"
+	ii=$(($ii+1))
+done
+echo "$ticknum"
+
+cat "/home/jacob/CSGODemo/tempticks" > "/home/jacob/CSGODemo/ttest5"
+
+#trim up file to only tick numbers
+#----------------------------------
+sed -i 's!Tick: !!' "/home/jacob/CSGODemo/tempticks"
+sed -i 's/\ .*$//' "/home/jacob/CSGODemo/tempticks"
+#----------------------------------
+
+
+#Fix duplicate ticks (when player dies to lose/win round) - fixes gototick misalignment
+#----------------------------------
+ii=1
+c=""
+for i in $(cat "/home/jacob/CSGODemo/tempticks"); do
+	if [[ "$i" == "$c" ]]
+	then
+		sed -i "$ii"'s/^/Lne2bDel3b3dadg/' "/home/jacob/CSGODemo/tempticks"
+	fi
+	c="$i"
+	ii=$(($ii+1))
+done
+sed -i '/Lne2bDel3b3dadg/d' "/home/jacob/CSGODemo/tempticks"
+#----------------------------------
+
+#Start creating VDM File
+#----------------------------------
+
+echo "demoactions" > "/home/jacob/CSGODemo/demo.vdm"
+echo "{" >> "/home/jacob/CSGODemo/demo.vdm"
+actionnumber=1
+b=""
+endloop=0
+while [ $endloop -eq 0 ]
+do
+line1=$(sed -n '1p' "/home/jacob/CSGODemo/tempticks")
+line2=$(sed -n '2p' "/home/jacob/CSGODemo/tempticks")
+if [ -n "$line2" ]
+then
+if [[ "$line1" -ne "0" ]]
+then
+line1=$(($line1+50))
+fi
+line2=$(($line2-50))
+echo "	\"$actionnumber\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "	{" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		factory \"SkipAhead\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		name \"Unnamed$actionnumber\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		starttick \"$line1\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		skiptotick \"$line2\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "	}" >> "/home/jacob/CSGODemo/demo.vdm"
+sed -i 1,2d "/home/jacob/CSGODemo/tempticks"
+line1=""
+lastline2="$line2"
+line2=""
+else
+
+echo "	\"$actionnumber\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "	{" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		name \"Unnamed$actionnumber\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		factory \"StopPlayback\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "		starttick \"$lastline2\"" >> "/home/jacob/CSGODemo/demo.vdm"
+echo "	}" >> "/home/jacob/CSGODemo/demo.vdm"
+
+
+endloop=1
+
+fi
+actionnumber=$(($actionnumber+1))
+done
+
+echo "}" >> "/home/jacob/CSGODemo/demo.vdm"
+#----------------------------------
+rm "/home/jacob/CSGODemo/tempticks"
